@@ -1,0 +1,17 @@
+<div class="w-100 px
+-4">
+    <table class="table  table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let _finalDataList of finalDataList">
+                <td>{{_finalDataList.id}}</td>
+                <td class="text-center">{{_finalDataList.title}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
